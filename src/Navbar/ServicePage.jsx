@@ -1,6 +1,5 @@
 import React from "react";
-
-import { FaSnowflake, FaSun, FaWind, FaBuilding, FaShower, FaNetworkWired, FaTools } from "react-icons/fa";
+import { FaSnowflake, FaSun, FaWind, FaShower, FaNetworkWired, FaTools } from "react-icons/fa";
 
 const services = [
   { id: 1, icon: <FaSnowflake />, text: "Air Conditioning" },

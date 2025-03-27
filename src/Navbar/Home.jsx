@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import video from "../assets/0326.mp4";
+
 const Home = () => {
   const navigate = useNavigate();
   const [text, setText] = useState("");
@@ -19,7 +20,6 @@ const Home = () => {
 
   return (
     <div className="home-container">
-
       {/* Background Video */}
       <video autoPlay loop muted className="video-bg">
         <source src={video} type="video/mp4" />
@@ -35,13 +35,15 @@ const Home = () => {
           transition={{ duration: 1 }}
         >
           <h1 className="animated-text">{text}</h1>
-          <p className="sub-text">We are available 24/7 to provide top-quality HVAC solutions.</p>
+          <p className="sub-text">
+            We are available 24/7 to provide top-quality HVAC solutions.
+          </p>
 
           <motion.button
             className="cta-button"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            onClick={() => navigate("/contact")}  
+            onClick={() => navigate("/contact")}
           >
             Request a Quote
           </motion.button>
