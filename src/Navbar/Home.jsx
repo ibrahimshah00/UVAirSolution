@@ -21,10 +21,9 @@ const Home = () => {
   return (
     <div className="home-container">
       {/* Background Video */}
-      <video autoPlay loop muted className="video-bg">
-        <source src={video} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <video autoPlay loop muted playsInline preload="auto" className="video-bg">
+  <source src={video} type="video/mp4" />
+</video>
 
       {/* Overlay Content */}
       <div className="overlay">
