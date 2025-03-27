@@ -143,21 +143,21 @@
   }
 }
 
-
-
 /* 
 navbar styles end */
 
 
 
+
+
+
 /* Hero Page */
 
-/* Home Page */
 .home-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 85vh;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -218,38 +218,51 @@ navbar styles end */
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+  .hero-content{
+    margin: 10px;
+  }
   .animated-text {
-    font-size: 2rem;
+    font-size: 44px;
     margin-bottom: 15px;
   }
 
   .sub-text {
     font-size: 1.2rem;
-    margin-bottom: 15px;
+    
+    padding: 0 10px;
+    margin-bottom: 30px;
   }
 
   .cta-button {
     padding: 12px 30px;
     font-size: 0.9rem;
+    width: 80%;
+    max-width: 250px; 
+    display: block;
+    margin: 0 auto;
   }
 
   .overlay {
-    padding: 15px;
+    padding: 25px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .animated-text {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .sub-text {
     font-size: 1rem;
+    padding: 0 15px;
+    
   }
 
   .cta-button {
-    padding: 10px 25px;
+    padding: 8px 18px;
     font-size: 0.8rem;
+    width: 75%;
+    max-width: 220px;
   }
 }
 
@@ -281,14 +294,14 @@ navbar styles end */
 }
 
 .hvac-subtitle {
-  font-size: 26px;
+  font-size: 24px;
   font-family: sans-serif;
   color: #007bff;
   margin-top: 15px;
 }
 
 .hvac-description {
-  font-size: 21px;
+  font-size: 20px;
   color: #000000;
   margin-top: 20px;
 }
