@@ -63,12 +63,13 @@
 
 
 import React, { useState } from "react";
-import about1 from "../assets/duct1.jpg";
-import about2 from "../assets/hero1.jpg";
-import about3 from "../assets/hero1.jpg";
-import about4 from "../assets/hero1.jpg";
+import about1 from "../assets/aboutus1.jpg";
+import about2 from "../assets/aboutus2.jpg";
+import about3 from "../assets/aboutus3.jpg";
+import about4 from "../assets/aboutus4.jpg";
+import about5 from "../assets/aboutus5.jpg";
 
-const images = [about1, about2, about3, about4];
+const images = [about1, about2, about3, about4,about5];
 
 const About = () => {
   const [mainImage, setMainImage] = useState(images[0]);
