@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import video from "../assets/0327.mp4";
+import video from "../assets/0329.mov";
+import image from "../assets/service1.jpg"
 
 const Home = () => {
   const navigate = useNavigate();
@@ -53,3 +54,7 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+

@@ -25,7 +25,10 @@ const IndoorAir = () => {
     <div className="indoor-air-container">
       <h1 className="gallery-title">Gallery Section</h1>
       <p className="gallery-description">
-      Explore our work through this gallery! Here, you can browse pictures of our past projects, showcasing our expertise in AC installation, HVAC cleaning, duct maintenance, and more. See the quality of our work firsthand!
+        Explore our work through this gallery! Here, you can browse pictures of
+        our past projects, showcasing our expertise in AC installation, HVAC
+        cleaning, duct maintenance, and more. See the quality of our work
+        firsthand!
       </p>
 
       {/* Main Image Display with Navigation */}

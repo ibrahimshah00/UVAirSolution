@@ -14,23 +14,18 @@ const DuctCleaning = () => {
       {/* Left Side - Text Content */}
       <div className="duct-text">
         <h1>UV AIR SOLUTIONS</h1>
-        <h2>RESIDENTIAL AND COMMERCIAL AIR DUCT CLEANING SERVICES IN FLORIDA</h2>
+        <h2>Residential & Commercial Air Duct Cleaning in Florida</h2>
         <p>
-          The air ducts in your home or <span className="highlight">commercial building</span> play a crucial role in
-          maintaining <span className="highlight">indoor air quality</span> by circulating air throughout the space.
-          Over time, however, these ducts can accumulate dust, dirt, pet dander, mold, and other allergens that may pose
-          serious health risks.
+          The air ducts in your <span className="highlight">home</span> or <span className="highlight">commercial building</span> 
+          play a crucial role in maintaining <span className="highlight">indoor air quality</span>.
         </p>
         <p>
-          Contaminated air ducts can lead to respiratory issues and allergies and even exacerbate conditions like asthma,
-          as they distribute harmful particles into the air you breathe. Additionally, excessive build-up within the ductwork may
-          create a damp environment that fosters the growth of mold and bacteria. This makes it essential to prioritize regular
-          professional cleaning, as it helps remove harmful contaminants and supports a healthier indoor environment for all occupants.
+          Over time, these ducts accumulate dust, mold, and allergens, posing health risks. Professional cleaning ensures 
+          clean air and prevents respiratory issues.
         </p>
         <p>
-          If you don’t remember the last time that you had your air ducts looked at, Emergency AC Corp is here to help.
-          Our licensed, insured, and experienced technicians use advanced methods and state-of-the-art equipment that
-          are specifically designed to thoroughly eliminate dust, allergens, and other contaminants from your ductwork.
+          <span className="highlight">Emergency AC Corp</span> offers expert air duct cleaning with advanced tools to remove 
+          contaminants and improve air circulation.
         </p>
       </div>
 
