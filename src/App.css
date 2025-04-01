@@ -1256,7 +1256,7 @@ navbar styles end */
 /* Left Side */
 .contact-left {
   flex: 1;
-  background: url("./assets/uvpic2.jpeg") no-repeat center;
+  background: url("./assets/pic2.jpg") no-repeat center;
   background-size: cover;
   min-height: 400px;
   display: flex;

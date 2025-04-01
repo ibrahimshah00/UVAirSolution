@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/uvpic1.jpeg"; // Replace with actual image
+import heroImage from "../assets/pic4.jpg"; // Replace with actual image
 
 const HVACSection = () => {
   return (
