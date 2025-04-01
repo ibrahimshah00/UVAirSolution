@@ -10,7 +10,7 @@ const ServiceSection = () => {
       <div className="service-content">
         <div>
         <h4 className="highlight-text">
-          Beat the <span>HEAT</span> with <span>UV AIR SOLUTIONS</span>
+        Cooler than your <span>Ex's hearts.</span> Try <span>UV AIR SOLUTIONS.</span>
         </h4>
         <h1>Fast and reliable service</h1>
         </div>
