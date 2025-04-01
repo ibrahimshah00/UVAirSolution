@@ -23,8 +23,8 @@ function Navbar() {
         <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
         <li><Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
         <li><Link to="/services" onClick={() => setMenuOpen(false)}>Services</Link></li>
-        <li><Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link></li>
         <li><Link to="/duct-cleaning" onClick={() => setMenuOpen(false)}>Air Duct Cleaning</Link></li>
+        <li><Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link></li>
         <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
       </ul>
 

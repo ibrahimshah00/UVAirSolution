@@ -16,7 +16,7 @@ const DuctCleaning = () => {
         <h1>UV AIR SOLUTIONS</h1>
         <h2>Residential & Commercial Air Duct Cleaning in Florida</h2>
         <p>
-          The air ducts in your <span className="highlight">home</span> or <span className="highlight">commercial building</span> 
+          The air ducts in your <span className="highlight">home</span> or <span className="highlight">commercial building </span> 
           play a crucial role in maintaining <span className="highlight">indoor air quality</span>.
         </p>
         <p>

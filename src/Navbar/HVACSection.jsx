@@ -19,7 +19,7 @@ const HVACSection = () => {
         </p>
         <div className="hvac-divider"></div>
         <p className="hvac-contact">
-          You can count on our AC HVAC and Air Duct Cleaning company in Miami to get the job done right. We offer affordable pricing and financing options, <span className="hvac-phone">(855) 783-2080</span> or 
+          You can count on our AC HVAC and Air Duct Cleaning company in Miami to get the job done right. We offer affordable pricing and financing options, <span className="hvac-phone">(786) 501-0587</span> or 
           <span className="hvac-highlight"> Contact US Online</span> to schedule a service!
         </p>
       </div>

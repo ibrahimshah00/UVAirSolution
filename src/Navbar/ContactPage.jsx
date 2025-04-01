@@ -23,7 +23,7 @@ const ContactSection = () => {
     const encodedMessage = encodeURIComponent(whatsappMessage);
     
     // WhatsApp link with formatted message
-    const whatsappLink = `https://wa.me/923345310281?text=${encodedMessage}`;
+    const whatsappLink = `https://wa.me/17865010587?text=${encodedMessage}`;
 
     // Open WhatsApp in a new tab
     window.open(whatsappLink, "_blank");

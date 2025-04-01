@@ -26,7 +26,7 @@ Email: ${userEmail}%0A
 Address: ${userAddress}%0A
 Message: ${userMessage}`;
     
-    const whatsappLink = `https://api.whatsapp.com/send?phone=923345310281&text=${formattedMessage}`;
+    const whatsappLink = `https://api.whatsapp.com/send?phone=17865010587&text=${formattedMessage}`;
     window.open(whatsappLink, "_blank");
   };
 
