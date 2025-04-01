@@ -22,8 +22,8 @@ const ServiceSection = () => {
             </a>
             <div>
               <h3>Email us</h3>
-              <a href="mailto:711irvin@gmail.com" className="email-address">
-              711irvin@gmail.com
+              <a href="mailto:uvair305@gmail.com" className="email-address">
+              uvair305@gmail.com
               </a>
             </div>
           </div>
