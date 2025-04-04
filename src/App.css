@@ -858,13 +858,13 @@ navbar styles end */
 }
 
 .highlight-text {
-  color: #ff6600;
+  color: #0033cc;
   font-weight: bold;
   font-size: 30px;
 }
 
 .highlight-text span {
-  color: #ff6600;
+  color: #0037ff;
 }
 
 .service-content h1 {
@@ -1256,7 +1256,7 @@ navbar styles end */
 /* Left Side */
 .contact-left {
   flex: 1;
-  background: url("./assets/pic2.jpg") no-repeat center;
+  background: url("./assets/hero1.jpg") no-repeat center;
   background-size: cover;
   min-height: 400px;
   display: flex;
