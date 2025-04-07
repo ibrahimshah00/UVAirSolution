@@ -13,7 +13,7 @@ const features = [
 const WhyChoose = () => {
   return (
     <section className="why-choose">
-      <h2>WHY CHOOSE EMERGENCY AC CORP?</h2>
+      <h2>WHY CHOOSE UV AIR SOLUTION?</h2>
       <div className="features">
         {features.map((item, index) => (
           <div key={index} className="feature">

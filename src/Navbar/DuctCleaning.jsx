@@ -27,6 +27,25 @@ const DuctCleaning = () => {
           <span className="highlight">Emergency AC Corp</span> offers expert air duct cleaning with advanced tools to remove 
           contaminants and improve air circulation.
         </p>
+
+
+
+        <p>
+        With years of experience as an <span className="highlight">AC repair technician and installer</span>, we not only clean ducts 
+        but also assess your HVAC system’s performance to ensure everything runs smoothly and efficiently.
+      </p>
+      <p>
+        Whether you’re dealing with decreased airflow, strange odors, or excessive dust, our certified team is equipped 
+        to handle all your duct and AC service needs. From full-system cleanings to UV light installations for ongoing 
+        protection, we’ve got you covered.
+      </p>
+      <p>
+        Serving both <span className="highlight">residential</span> and <span className="highlight">commercial clients </span> 
+         across Florida, we pride ourselves on providing quick, reliable, and affordable solutions. Don’t wait until 
+        indoor air problems affect your health — contact us today for a free inspection and breathe cleaner air tomorrow.
+      </p>
+
+
       </div>
 
       {/* Right Side - Image Section */}
