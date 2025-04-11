@@ -105,6 +105,7 @@ function App() {
           />
           
         </Routes>
+        <WhatsAppButton />
       </div>
     </>
   );
