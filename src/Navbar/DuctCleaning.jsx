@@ -24,7 +24,7 @@ const DuctCleaning = () => {
           clean air and prevents respiratory issues.
         </p>
         <p>
-          <span className="highlight">Emergency AC Corp</span> offers expert air duct cleaning with advanced tools to remove 
+          <span className="highlight">Uv Air Solutions</span> offers expert air duct cleaning with advanced tools to remove 
           contaminants and improve air circulation.
         </p>
 

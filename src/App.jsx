@@ -16,6 +16,8 @@ import Testimonials from "./Navbar/Testimonial";
 import GoogleMap from "./Navbar/GoogleMap";
 import ServiceSection from "./Navbar/ServiceSection";
 import Footer from "./Navbar/Footer";
+import WhatsAppButton from "./Navbar/WhatsAppButton";
+
 
 function App() {
   return (
@@ -109,3 +111,10 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+

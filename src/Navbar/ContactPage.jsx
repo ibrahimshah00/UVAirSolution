@@ -41,7 +41,7 @@ const ContactSection = () => {
 
      
       <div className="contact-right">
-        <h2>Contact UV AIR SOLUTION </h2>
+        <h2>Contact UV AIR SOLUTIONS </h2>
         <p>
           A member of our team will be in touch shortly to confirm your contact details or address questions you may have.
         </p>

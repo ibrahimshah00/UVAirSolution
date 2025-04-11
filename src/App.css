@@ -327,7 +327,9 @@ navbar styles end */
   font-size: 21px;
   font-weight: bold;
 }
-
+.hvac-contact a{
+  text-decoration: none;
+}
 .hvac-phone {
   color: #003087;
 }
@@ -1632,5 +1634,107 @@ button:hover {
   .nav-button {
     font-size: 1.25rem;
     padding: px;
+  }
+}
+
+/* 
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center ;
+  padding: 12px;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-icon {
+  font-size: 40px;
+  color: white  ;
+} */
+
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 13px;
+  padding-right: 10px;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-icon {
+  font-size: 36px;
+  color: white;
+}
+
+.whatsapp-tooltip {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #25d366;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+/* Show tooltip only on hover */
+.whatsapp-container:hover .whatsapp-tooltip {
+  opacity: 1;
+}
+
+/* Mobile-friendly tweaks */
+@media (max-width: 600px) {
+  .whatsapp-float {
+    bottom: 15px;
+    right: 15px;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+  }
+
+  .whatsapp-icon {
+    font-size: 35px;
+  }
+
+  .whatsapp-tooltip {
+    font-size: 12px;
+    padding: 0px 10px;
+    margin-right: px;
   }
 }
