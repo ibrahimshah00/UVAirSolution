@@ -101,24 +101,7 @@ const About = () => {
         </p>
       </div>
 
-      {/* Right Side - Image Section */}
-      <div className="about-image-container">
-        {/* Main Image */}
-        <img src={mainImage} alt="AC Work" className="about-image" />
-
-        {/* Thumbnails */}
-        <div className="thumbnail-container">
-          {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`Thumbnail ${index}`}
-              className={`thumbnail ${mainImage === image ? "active-thumbnail" : ""}`}
-              onClick={() => setMainImage(image)}
-            />
-          ))}
-        </div>
-      </div>
+     
     </div>
   );
 };

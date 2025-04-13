@@ -1419,7 +1419,7 @@ button:hover {
 /* Main Container */
 .about-container {
   display: flex;
-  flex-direction: column; /* Mobile-friendly */
+  
   align-items: center;
   justify-content: space-around;
   padding: 20px;
@@ -1430,7 +1430,7 @@ button:hover {
 /* Left Side - About Section */
 .about-text {
   width: 100%;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin-bottom: 20px;
 }
 
@@ -1455,7 +1455,7 @@ button:hover {
 
 /* Right Side - Image Section */
 .about-image-container {
-  width: 100%;
+  /* width: 100%; */
   max-width: 400px;
   display: flex;
   flex-direction: column;
@@ -1499,9 +1499,7 @@ button:hover {
     text-align: left;
   }
 
-  .about-text {
-    width: 50%;
-  }
+ 
 
   .about-image-container {
     width: 50%;
