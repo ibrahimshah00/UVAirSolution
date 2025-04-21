@@ -72,7 +72,7 @@ const About = () => {
     <div className="about-container">
       {/* Left Side - About Section */}
       <div className="about-text">
-        <h1>Who We Are – Uv Air Solution</h1>
+        <h1>Who We Are – Uv Air Solutions</h1>
         <h2>Delivering Comfort with Every Breath</h2>
         <p>
           Every heating or cooling unit has its limits—and without proper care, even the best ones wear out too soon. While technology keeps improving, it’s the skill of trusted professionals that keeps your system running strong year after year.
