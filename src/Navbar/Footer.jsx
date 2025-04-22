@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="footer-address">
           <h3>Address</h3>
-          <p>3021 W 76th St apt<br /> C110<br /> Hialeah, FL 33018, United States</p>
+          <p> Hialeah, FL 33018, United States</p>
           <a 
             href="https://maps.app.goo.gl/RNDCLLuXpSdGrUgi8" 
             target="_blank" 

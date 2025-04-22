@@ -83,7 +83,7 @@ const About = () => {
         </p>
 
         <p>
-          With <span className="highlight">Irvin</span> at the helm and a team backed by <span className="highlight">over 5 years of experience</span>, we’ve supported <span className="highlight">hundreds of clients</span> across various projects—from system installs and emergency repairs to full duct cleanings and preventive maintenance.
+          With <span className="highlight">Irvin</span> at the helm and a team backed by <span className="highlight">over 10+ years of experience</span>, we’ve supported <span className="highlight">hundreds of clients</span> across various projects—from system installs and emergency repairs to full duct cleanings and preventive maintenance.
         </p>
 
         <p>
